@@ -1,0 +1,6 @@
+[submodule "Python API"]
+	path = Python API
+	url = ./API/
+[submodule "Website"]
+	path = Website
+	url = ./Website/
