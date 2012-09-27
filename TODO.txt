@@ -1,0 +1,22 @@
+-- SERVER --
+	- Flesh out API
+	- Handle GET
+	- Handle POST
+
+-- API LIBRARY --
+	- Get Classes
+	- Get Data
+	- Post Data
+	- Edit Data
+-- DATABASE --
+	- Implement Database
+
+-- GUI CLIENT --
+	- Design Functional GUI
+
+-- WEBSITE --
+	- App Marketplace
+	- Create Accounts
+	- Business Accounts
+	- Developer Section
+	- Account Homepage
