@@ -1,0 +1,29 @@
+#:kivy 1.0.9
+
+<MainScreen>:
+    BoxLayout:
+        Button:
+            text: 'Goto settings'
+            on_press: root.manager.current = 'settings'
+        Button:
+            text: 'Quit'
+            on_press: exit()
+
+<SettingsScreen>:
+    BoxLayout:
+        Button:
+            text: 'My setting button'
+        Button:
+            text: 'Back to menu'
+            on_press: root.manager.current = 'main'
+
+<LoginScreen>:
+    StackLayout:
+        TextInput:
+            
+        TextInput:
+            password: True
+        Label:
+            text: 'Username'
+        Label:
+            text: 'Password'
