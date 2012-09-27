@@ -3,4 +3,4 @@
 	url = ./API/
 [submodule "Website"]
 	path = Website
-	url = ./Website/
+	url = git@heroku.com:time-logger-site.git
